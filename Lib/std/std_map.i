@@ -13,8 +13,8 @@
 
 #ifdef SWIG_EXPORT_ITERATOR_METHODS
 //  iterator insert(iterator position, const value_type& x);
-  void erase(iterator position);
-  void erase(iterator first, iterator last);
+  void erase(const_iterator position);
+  void erase(const_iterator first, iterator last);
 
   iterator find(const key_type& x);
   iterator lower_bound(const key_type& x);
